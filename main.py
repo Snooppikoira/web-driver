@@ -26,5 +26,5 @@ try:
         driver.refresh()
         time.sleep(1)
 finally:
-    print(f"{Fore.WHITE}[{Fore.RED}-{Fore.WHITE}] Suljetaan selain...")
+    print(f"{Fore.WHITE}[{Fore.RED}-{Fore.WHITE}] Closing program & thread...")
     driver.quit()
